@@ -23,6 +23,9 @@ class FizzBuzz:
             raise ValueError("Veuillez d'abord exécuter la méthode affiche().")
 
 class TestFizzBuzz(unittest.TestCase):
+    #def setUp(self):
+        #self.instance=FizzBuzz()
+
     def test_affiche(self):
         fb = FizzBuzz()
         result = fb.affiche()
