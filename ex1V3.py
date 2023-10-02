@@ -46,5 +46,6 @@ class TestFizzBuzz(unittest.TestCase):
         result = fb.affiche(10, 16)
         self.assertEqual(result, "Buzz11Fizz1314FrisBee16")
 
+
 if __name__ == "__main__":
     unittest.main()
